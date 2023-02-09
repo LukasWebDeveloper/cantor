@@ -2,7 +2,7 @@ Site "cantor" is there: <br>
 https://lukaswebdeveloper.github.io/cantor/
 
 <h2> Icon page</h2>
-
+    <img src="img/icon.png">
 <h2>DEMO page CANTOR</h2>
 
 
