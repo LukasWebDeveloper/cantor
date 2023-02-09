@@ -9,17 +9,47 @@ html {
 .page {
     margin: 20px;
     color: white;
+    font-size: 20px;
     background-color: rgb(35, 112, 163);
     padding: 5px;
+    margin: auto 0;
     background-image: url(../img/old-black-background-grunge-texture-blackboard-chalkboard-concrete_1258-52289.jpg);
     background-size: 100%;
 }
 
 .header {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
     text-align: center;
+    margin: 100px auto 10px;
+    border-radius: 10px;
     height: 200px;
+    max-width: 900px;
+    background-color: #9fa0a188;
+    border: 4px solid rgb(218, 218, 218);
 }
 
+.header__iconPage {
+    display: flex;
+    align-self: flex-end;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border: 2px solid white;
+}
+
+.page__div {
+    display: flex;
+    border: 2px solid white;
+    max-width: 900px;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #365c8188;
+    border: 4px solid rgb(218, 218, 218);
+}
 .title {
     background-color: rgb(12, 32, 87);
     width: 350px;
@@ -34,7 +64,7 @@ html {
 }
 
 .form {
-    width: 500px;
+    width: 600px;
     max-height: 100px;
     margin: 0 auto;
     line-height: 30px;
