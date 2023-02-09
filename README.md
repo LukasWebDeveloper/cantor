@@ -1,10 +1,13 @@
+<h1>Cantor </h1>
+
 Site "cantor" is there: <br>
 https://lukaswebdeveloper.github.io/cantor/
 
 <h2> Icon page</h2>
     <img src="img/icon.png">
-<h2>DEMO page CANTOR</h2>
 
+<h2>DEMO page CANTOR</h2>
+    <img src="img/demoPage.png">
 
 <h2>Description</h2>
 
@@ -14,7 +17,23 @@ https://lukaswebdeveloper.github.io/cantor/
 
 <b>hour: 16:40, date: 09.02.2023</b><br> complete html page code. normalize.css CSS file added. I have completed this CSS code to give the whole look of the exchange website
 
+<b>hour: 21:30, date: 09.02.2023</b><br> I modified and finished the appearance of the exchange office's website, added a page icon to it, added the technologies used here in the description below
 
 
 
 <h2>Used Technologies</h2>
+
+<ul>
+    <li>
+        HTML
+    </li>
+    <li>
+        CSS
+    </li>
+    <li>
+        JAVASCRIPT
+    </li>
+    <li>
+        BEM
+    </li>
+</ul>
