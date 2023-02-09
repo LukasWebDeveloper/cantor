@@ -15,6 +15,7 @@
 
 <body class="page">
     <header class="header">
+        <img class="header__iconPage" src="img/icon.png" alt="iconPage">
         <h1 class="title">
             KANTOR
         </h1>
@@ -22,39 +23,41 @@
             Ten kantor zamienia walutę euro z polskim złotym
         </p>
     </header>
-    <form action="" class="form js-form">
-        <legend class="form__legend"> Kantor EUR i PLN </legend>
-        <p>
-            <label>
-                Kwota
-                <input class="form__input form__input--inputPrice js-inputPrice" type="number" min="1" max="1000000"
-                    step="0.01" required placeholder="podaj zamienianą kwotę" step="any">
-            </label>
+    <div class="page__div">
+        <form action="" class="form js-form">
+            <legend class="form__legend"> Kantor EUR i PLN </legend>
+            <p>
+                <label>
+                    Kwota
+                    <input class="form__input form__input--inputPrice js-inputPrice" type="number" min="1" max="1000000"
+                        step="0.01" required placeholder="podaj zamienianą kwotę" step="any">
+                </label>
 
-            <select class="form__select--moneyCurrency js-moneyCurrency" name="currencyInput">
-                <option selected>PLN / Złoty</option>
-                <option>EUR / Euro</option>
-            </select>
-            <br>
-            zostanie podana w
-            <strong>
-                <span class="js-currency">euro (EUR)</span>
-            </strong>
-            po podaniu aktualnego kursu:
-            <br>
-            <strong>
-                <span class="js-currentCourse">(EUR / PLN)</span>
-            </strong>
-            <input class="form__input form__input--currentCourse js-inputCurrentCourse" type="number"
-                placeholder="wprowadź aktualny" min="0.0001" max="10" step="0.0001" required>
-            <br>
-        </p>
-        <button class="form__button" type="submit">Wyślij by uzyskać wynik</button>
+                <select class="form__select--moneyCurrency js-moneyCurrency" name="currencyInput">
+                    <option selected>PLN / Złoty</option>
+                    <option>EUR / Euro</option>
+                </select>
+                <br>
+                zostanie podana w
+                <strong>
+                    <span class="js-currency">euro (EUR)</span>
+                </strong>
+                po podaniu aktualnego kursu:
+                <br>
+                <strong>
+                    <span class="js-currentCourse">(EUR / PLN)</span>
+                </strong>
+                <input class="form__input form__input--currentCourse js-inputCurrentCourse" type="number"
+                    placeholder="wprowadź aktualny" min="0.0001" max="10" step="0.0001" required>
+                <br>
+            </p>
+            <button class="form__button" type="submit">Wyślij by uzyskać wynik</button>
 
-        <strong>&nbsp; Zamieniona kwota to: <span class="form__strong--finalAmount js-finalAmount"></span></strong>
+            <strong>&nbsp; Zamieniona kwota to: <span class="form__strong--finalAmount js-finalAmount"></span></strong>
 
-        </fieldset>
-    </form>
+            </fieldset>
+        </form>
+    </div>
 </body>
 
 </html>
