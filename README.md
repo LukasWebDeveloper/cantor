@@ -12,5 +12,9 @@ https://lukaswebdeveloper.github.io/cantor/
 
 <b>hour: 17:23</b>, <b>date: 09.02.2023</b> <br> In this description added icon page.
 
+<b>hour: 16:40, date: 09.02.2023</b><br> complete html page code. normalize.css CSS file added. I have completed this CSS code to give the whole look of the exchange website
+
+
+
 
 <h2>Used Technologies</h2>
