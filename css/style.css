@@ -1,0 +1,86 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.page {
+    margin: 20px;
+    color: white;
+    background-color: rgb(35, 112, 163);
+    padding: 5px;
+    background-image: url(../img/old-black-background-grunge-texture-blackboard-chalkboard-concrete_1258-52289.jpg);
+    background-size: 100%;
+}
+
+.header {
+    text-align: center;
+    height: 200px;
+}
+
+.title {
+    background-color: rgb(12, 32, 87);
+    width: 350px;
+    margin: 0 auto;
+    border: 3px solid white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.header__description {
+    font-size: 24px;
+}
+
+.form {
+    width: 500px;
+    max-height: 100px;
+    margin: 0 auto;
+    line-height: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.fieldset {
+    border: 5px solid rgb(3, 27, 63);
+    background-color: rgb(75, 80, 85);
+    border-radius: 5px;
+}
+
+.form__legend {
+    border: 5px solid rgb(3, 27, 63);
+    background-color: rgb(12, 32, 87);
+    
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.form__input--inputPrice {
+    width: 180px;
+    border-radius: 5px;
+}
+
+.form__select--moneyCurrency {
+    border-radius: 5px;
+}
+
+.form__input--currentCourse {
+    width: 148px;
+    border-radius: 5px;
+}
+
+.form__button {
+    padding: 10px 15px;
+    background-color: rgb(2, 24, 84);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.form__button:hover {
+    background-color: rgb(0, 71, 186);
+}
+
+.form__strong--finalAmount {
+    color: rgb(215, 230, 12);
+}
