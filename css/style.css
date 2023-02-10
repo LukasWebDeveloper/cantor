@@ -13,8 +13,11 @@ html {
     background-color: rgb(35, 112, 163);
     padding: 5px;
     margin: auto 0;
+    background: no-repeat;
     background-image: url(../img/old-black-background-grunge-texture-blackboard-chalkboard-concrete_1258-52289.jpg);
-    background-size: 100%;
+    background-attachment:fixed;
+    background-position: center;
+    background-size: cover;
 }
 
 .header {
@@ -22,28 +25,28 @@ html {
     flex-direction: column;
     padding: 20px;
     text-align: center;
-    margin: 100px auto 10px;
+    margin: 10px auto 10px;
     border-radius: 10px;
-    height: 200px;
-    max-width: 900px;
+    height: 250px;
+    max-width: 700px;
     background-color: #9fa0a188;
     border: 4px solid rgb(218, 218, 218);
 }
 
 .header__iconPage {
     display: flex;
+    position:absolute;
     align-self: flex-end;
-    position: absolute;
     height: 100px;
     width: 100px;
     border: 2px solid white;
 }
 
-.page__div {
+.body__div {
     display: flex;
     border: 2px solid white;
-    max-width: 900px;
-    height: 300px;
+    max-width: 700px;
+    height: 350px;
     margin: 0 auto;
     border-radius: 10px;
     padding: 20px;
@@ -52,14 +55,15 @@ html {
 }
 .title {
     background-color: rgb(12, 32, 87);
-    width: 350px;
-    margin: 0 auto;
+    width: 220px;
+    margin: 0 0 0 20px;
     border: 3px solid white;
     padding: 10px;
     border-radius: 5px;
 }
 
 .header__description {
+    margin-top: 50px;
     font-size: 24px;
 }
 
