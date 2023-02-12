@@ -4,7 +4,7 @@
     const currentCourseElement = document.querySelector(".js-currentCourse");
 
 
-    const changeTextCurrency_first = () => {
+    const changeTextCurrencyEuroEURzlotyPLN = () => {
         if (moneyCurrencyElement.value === "PLN / Złoty") {
             currencyElement.innerText = "euro (EUR)";
         }
@@ -13,7 +13,7 @@
         }
     }
 
-    const changeTextCurrency_second = () => {
+    const changeTextCurrencyEURPLN = () => {
         if (moneyCurrencyElement.value === "PLN / Złoty") {
             currentCourseElement.innerText = "(EUR / PLN)";
         }
@@ -39,8 +39,8 @@
     const init = () => {
         const formElement = document.querySelector(".js-form");
 
-        moneyCurrencyElement.addEventListener("change", changeTextCurrency_first);
-        moneyCurrencyElement.addEventListener("change", changeTextCurrency_second);
+        moneyCurrencyElement.addEventListener("change", changeTextCurrencyEuroEURzlotyPLN);
+        moneyCurrencyElement.addEventListener("change", changeTextCurrencyEURPLN);
         formElement.addEventListener("submit", onFormSubmit);
     };
 
