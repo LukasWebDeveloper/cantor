@@ -42,7 +42,7 @@ html {
     border: 2px solid white;
 }
 
-.body__div {
+.container {
     display: flex;
     border: 2px solid white;
     max-width: 700px;
